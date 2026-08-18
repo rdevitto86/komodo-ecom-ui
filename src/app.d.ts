@@ -38,5 +38,3 @@ declare module 'vitest' {
     requirementId?: string;
   }
 }
-
-export {};

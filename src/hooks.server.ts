@@ -1,4 +1,4 @@
-import { type Handle } from '@sveltejs/kit';
+import type { Handle } from '@sveltejs/kit';
 import { serverLogger } from '$lib/server/logging';
 import { randomUUID } from 'crypto';
 

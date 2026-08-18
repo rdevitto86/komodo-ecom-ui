@@ -13,9 +13,7 @@ export interface UserPreferences {
   currency: string;
 }
 
-export interface Orders {
-
-}
+export type Orders = {}
 
 export interface UserProfile {
   id: string;

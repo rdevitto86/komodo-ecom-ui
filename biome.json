@@ -1,0 +1,19 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.5.8/schema.json",
+  "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
+  "files": {
+    "ignoreUnknown": false,
+    "includes": [
+      "**",
+      "!scripts",
+      "!src/lib/types/generated",
+      "!src/lib/styles",
+      "!src/lib/server/__mocks__",
+      "!deploy/cdk/node_modules",
+      "!deploy/cdk/lib"
+    ]
+  },
+  "formatter": { "enabled": false },
+  "linter": { "enabled": true, "rules": { "preset": "recommended" } },
+  "assist": { "actions": { "source": { "organizeImports": { "level": "on" } } } }
+}
