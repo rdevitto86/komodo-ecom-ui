@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "komodo-desktop-svelte",
+      "name": "komodo-ecom-ui",
       "dependencies": {
         "@sveltejs/kit": "^2.65.2",
         "@tailwindcss/vite": "^4.3.1",

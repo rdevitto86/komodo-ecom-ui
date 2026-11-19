@@ -1,5 +1,5 @@
 {
-  "name": "komodo-komodo-ecom-ui-cdk",
+  "name": "komodo-ecom-ui-cdk",
   "version": "1.0.0",
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
